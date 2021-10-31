@@ -239,21 +239,12 @@
                 android:text="0"
                 android:onClick="numberClick"
                 android:textColor="@color/black"
-                android:textSize="45dp" />
+                android:textSize="45dp" /> 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_weight="0.25"
-                android:gravity="center"
-                android:text="."
-                android:textColor="@color/black"
-                android:textSize="45dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_weight="0.25"
+                android:layout_weight="0.5"
                 android:gravity="center"
                 android:text="="
                 android:onClick="equalsClick"
